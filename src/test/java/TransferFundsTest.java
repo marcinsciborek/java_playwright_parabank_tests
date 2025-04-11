@@ -13,11 +13,13 @@ public class TransferFundsTest extends BaseTest {
     @BeforeEach
     void setupPage() {
         transferFundsPage = new TransferFundsPage(page);
+        page.waitForSelector("text=Transfer Funds");
+        page.click("text=Transfer Funds");
     }
 
     @Test
     void transferFundsTest() {
-        page.click("text=Transfer Funds");
+
         BigDecimal amount = BigDecimal.ONE;
         String firstAccount = page.locator("//select[@id='fromAccountId']/option[1]").getAttribute("value");
         String secondAccount = page.locator("//select[@id='toAccountId']/option[2]").count() > 0
@@ -25,7 +27,7 @@ public class TransferFundsTest extends BaseTest {
                 : firstAccount;
         transferFundsPage.transferFunds(amount, firstAccount, secondAccount);
 
-        assertTrue(page.locator("text=Transfer Complete").isVisible(),
+        assertTrue(page.locator("text=Transfer Complete!").isVisible(),
                 "Transfer confirmation should be visible.");
     }
 

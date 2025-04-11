@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e61447e1-5b92-48a4-b8ff-426a9687177a" name="Changes" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parabank/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parabank/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AccountOverviewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AccountOverviewTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TransferFundsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TransferFundsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,10 +29,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2uuW1dR9JYLhWXOeBrEyOLDk7Gf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -37,28 +41,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.AccountOverviewTest.checkAccountActivity.executor": "Run",
-    "JUnit.AccountOverviewTest.checkAccountActivityTest.executor": "Run",
-    "JUnit.AccountOverviewTest.checkAccountDetails.executor": "Run",
-    "JUnit.AccountOverviewTest.checkAccountDetailsBalance.executor": "Run",
-    "JUnit.AccountOverviewTest.checkAccountDetailsBalanceTest.executor": "Run",
-    "JUnit.AccountOverviewTest.executor": "Run",
-    "JUnit.All in parabank_tests_playwright.executor": "Run",
-    "JUnit.LoginTest.executor": "Run",
-    "JUnit.LoginTest.testtestet.executor": "Run",
-    "JUnit.LoginTest.validLoginTest.executor": "Run",
-    "JUnit.TransferFundsTest.executor": "Run",
-    "JUnit.TransferFundsTest.transferFundsTest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.AccountOverviewTest.checkAccountActivity.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountOverviewTest.checkAccountActivityTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountOverviewTest.checkAccountDetails.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountOverviewTest.checkAccountDetailsBalance.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountOverviewTest.checkAccountDetailsBalanceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountOverviewTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in parabank_tests_playwright.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BillPayTest.billPaymentServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BillPayTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LoginTest.testtestet.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LoginTest.validLoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TransferFundsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TransferFundsTest.transferFundsTest.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\JavaLearning\testy\projekty z GitHuba\parabank_tests_playwright\src\test\java" />
@@ -67,23 +73,12 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AccountOverviewTest.checkAccountDetailsBalanceTest">
-    <configuration name="AccountOverviewTest.checkAccountActivityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AccountOverviewTest">
+    <configuration name="AccountOverviewTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="parabank_tests_playwright" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AccountOverviewTest" />
-      <option name="METHOD_NAME" value="checkAccountActivityTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountOverviewTest.checkAccountDetailsBalanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="parabank_tests_playwright" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AccountOverviewTest" />
-      <option name="METHOD_NAME" value="checkAccountDetailsBalanceTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,6 +87,25 @@
       <module name="parabank_tests_playwright" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BillPayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="parabank_tests_playwright" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BillPayTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BillPayTest.billPaymentServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="parabank_tests_playwright" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BillPayTest" />
+      <option name="METHOD_NAME" value="billPaymentServiceTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,23 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransferFundsTest.transferFundsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="parabank_tests_playwright" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TransferFundsTest" />
-      <option name="METHOD_NAME" value="transferFundsTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AccountOverviewTest.checkAccountDetailsBalanceTest" />
+        <item itemvalue="JUnit.AccountOverviewTest" />
         <item itemvalue="JUnit.All in parabank_tests_playwright" />
-        <item itemvalue="JUnit.TransferFundsTest.transferFundsTest" />
+        <item itemvalue="JUnit.BillPayTest" />
         <item itemvalue="JUnit.TransferFundsTest" />
-        <item itemvalue="JUnit.AccountOverviewTest.checkAccountActivityTest" />
+        <item itemvalue="JUnit.BillPayTest.billPaymentServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -165,11 +169,110 @@
       <option name="project" value="LOCAL" />
       <updated>1743282216734</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1743282830502</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743282830502</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TransferFundsTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TransferFundsTest.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TransferFundsTest.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TransferFundsTest.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TransferFundsTest.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TransferFundsTest.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TransferFundsTest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/BillPayTest.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/BillPayTest.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/BillPayTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/BillPayTest.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/BillPayTest.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/BillPayTest.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/BillPayTest.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/BillPayTest.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/BillPayTest.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/BillPayTest.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

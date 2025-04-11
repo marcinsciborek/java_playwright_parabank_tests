@@ -11,6 +11,8 @@ public class AccountOverviewTest extends BaseTest{
     @BeforeEach
     void setupPage() {
         accountOverviewPage = new AccountOverviewPage(page);
+        page.waitForSelector("text=Accounts Overview");
+        page.click("text=Accounts Overview");
     }
 
     @Test

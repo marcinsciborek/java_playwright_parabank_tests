@@ -67,7 +67,13 @@ public class LoginPage {
         page.click(loginButton);
     }
 
-    public boolean isLoginSuccessful() {
-        return page.isVisible("text=Dashboard");
+    public boolean isLoggedIn() {
+        try {
+            return page.getByRole(AriaRole.HEADING, new Page.GetByRoleOptions()
+                    .setName("Accounts Overview")).isVisible();
+        } catch (Exception e) {
+            return false;
+        }
     }
+
 }

@@ -2,9 +2,11 @@ import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
-import com.microsoft.playwright.options.AriaRole;
 import com.parabank.pages.LoginPage;
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import utils.ConfigReader;
 
 
@@ -28,9 +30,7 @@ public class BaseTest {
         page.navigate("https://parabank.parasoft.com/parabank/index.htm");
         loginPage.login(ConfigReader.getProperty("username"), ConfigReader.getProperty("password"));
 
-        if (page.getByRole(AriaRole.CELL, new Page.GetByRoleOptions().setName("Available Amount")).isVisible()) {
-        } else {
-            System.out.println("Login failed, creating new account...");
+        if (!loginPage.isLoggedIn()) {
             loginPage.createAccount(
                     "https://parabank.parasoft.com/parabank/register.htm",
                     ConfigReader.getProperty("firstName"),
@@ -44,6 +44,10 @@ public class BaseTest {
                     ConfigReader.getProperty("username"),
                     ConfigReader.getProperty("password")
             );
+            loginPage.login(ConfigReader.getProperty("username"), ConfigReader.getProperty("password"));
+            if (!loginPage.isLoggedIn()) {
+                throw new IllegalStateException("Login failed.");
+            }
         }
     }
 
